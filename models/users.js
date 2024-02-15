@@ -7,6 +7,7 @@ const userSchema = mongoose.Schema({
   token: String,
   canLike: Boolean,
 });
+// routes
 
 const User = mongoose.model("users", userSchema);
 
